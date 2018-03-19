@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="">
+<html class="theme-next mist use-motion" lang="English">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -16,6 +16,10 @@
 
 
 
+
+  
+  
+  <link rel="stylesheet" media="all" href="/lib/Han/dist/han.min.css?v=3.3">
 
 
 
@@ -68,8 +72,6 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
-
 
 
 
@@ -85,6 +87,7 @@
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="X">
 <meta property="og:description" content="Personal Blog">
+<meta property="og:locale" content="English">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="X">
 <meta name="twitter:description" content="Personal Blog">
@@ -95,9 +98,9 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Mist',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"right","display":"hide","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -135,14 +138,14 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="">
+<body itemscope itemtype="http://schema.org/WebPage" lang="English">
 
   
   
     
   
 
-  <div class="container sidebar-position-left 
+  <div class="container sidebar-position-right 
   page-home">
     <div class="headband"></div>
 
@@ -159,7 +162,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">我唯一知道的事就是我一无所知</p>
+        <h1 class="site-subtitle" itemprop="description">我唯一知道的事就是我一无所知</h1>
       
   </div>
 
@@ -179,52 +182,42 @@
     <ul id="menu" class="menu">
       
         
-        <li class="menu-item menu-item-home">
+        <li class="menu-item menu-item-主页">
           <a href="/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Accueil
+            主页
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            A propos
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
+        <li class="menu-item menu-item-标签">
           <a href="/tags/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            Tags
+            标签
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-categories">
+        <li class="menu-item menu-item-目录">
           <a href="/categories/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            Categories
+            目录
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-archives">
+        <li class="menu-item menu-item-文档">
           <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archives
+            文档
           </a>
         </li>
       
@@ -261,6 +254,145 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/19/OwnBlockChain/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Doesn't Matter">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="X">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/03/19/OwnBlockChain/" itemprop="url">区块链</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-19T15:06:57+08:00">
+                2018-03-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>#涉水区块链</p>
+<p>​    过去的一年里，AI（人工智能）和BTC（基于区块链技术的比特币）分别包揽了互联网的上下半场，整个行业达到了一种狂热的状态。我也补习了一部分区块链的相关知识，这里通过比特币了解一下区块链的知识。</p>
+<p>##Part0  相关介绍</p>
+<p>###比特币BTC和区块链</p>
+<p>​    BTC本质上来讲是一种虚拟货币，不过貌似近段时间作为一种金融工具才被众人所熟知。网上搜集了一些资料发现，本身这种货币就属于虚拟资产，它的具体价值以及实际价值什么的不做讨论，毕竟不是专业认识，也就了解一下它背后的技术支持。区块链，其最核心的观点就是去中心化。对于当今采取做服务器集群的普遍方法，这种技术确实是一个炸弹。没有中心化服务器，没有中心化数据库，没有中心管理员，全网的任何个人PC都可以是一个单独服务器，一个单独数据库，通过整个互联网连接起来。网络中的每个人都有添加修改的权利，那么问题来了，如何保证写入其中的数据不被篡改？区块链中的每一个结点称为块Block，每个块都独立的对应一个哈希值Hash。而且每个块中分别包含上一个块的Hash，以及当前块中的数据Data（包括索引Index，数据Data，以及时间戳TimeStamp等等一些定义的结构）。如果想改变某一块的Hash，必须改变上一个hash的值，然后重新计算。由于每个一块都是单独对应的，所以要想更改成功必须牵扯到前后所有的区块，这需要极其巨大量的计算来完成。对于量子计算机还没普及的今天，要想更改已经写入区块链的信息基本等于不可能，由此保证了信息的安全性。</p>
+<h3 id="涉及到密码学的非对称加密"><a href="#涉及到密码学的非对称加密" class="headerlink" title="涉及到密码学的非对称加密"></a>涉及到密码学的非对称加密</h3><p>​    加密和解密分别需要公钥和私钥，其中公钥是公开的，所有人都可以获取到，而私钥是自己唯一保密的，只有拥有者才能使用。他人使用你的公钥加密信息，然后发送给你，你用私钥解密，取出信息。反过来，你也可以用私钥加密信息，别人用你的公钥解开，从而证明这个信息确实是你发出的，且未被篡改。其中还涉及到数字签名的知识。其中公钥的长度是 512 位。这个长度不太方便传播，因此协议又规定，要为公钥生成一个 160 位的指纹。所谓指纹，就是一个比较短的、易于传播的哈希值。160 位是二进制，写成十六进制，大约是 26 到 35 个字符，比如 q1w2e3r4t5jdajsgsfajasjlfjs。这个字符串就叫做钱包的地址。</p>
+<h3 id="挖矿"><a href="#挖矿" class="headerlink" title="挖矿"></a>挖矿</h3><p>​    由于必须保证所有区块链中的结点的同步即不能让其中的生成的太快，区块链的发明者中本聪设计了一种动态调节机制：在区块的头部添加了一项参数值Difficulty，称其为难度系数。如果时间段内的区块链被挖出的超出预定范围，恒定在十分钟一个，难度系数会自动增加。区块链协议规定：目标值Target=TargetMax/Difficulty，常量除以难度系数，得到的值只有小于Target值即判定为采矿成功。要想算出预定的目标值远远不容易，属性中还设置了一项Nonce。Nonce是一项32位的二进制随机值，只有通过穷举去猜。所以说挖矿具有随机性。</p>
+<h3 id="比特币的交易机制"><a href="#比特币的交易机制" class="headerlink" title="比特币的交易机制"></a>比特币的交易机制</h3><p>​    一笔交易就是一个地址的比特币，转移到另一个地址。由于比特币的交易记录全部都是公开的，哪个地址拥有多少比特币，都是可以查到的。因此，支付方是否拥有足够的比特币，完成这笔交易，这是可以轻易验证的。比特币规定，验证一笔交易的真实性，需要支付方进行三个步骤：</p>
+<ul>
+<li><p>上一笔交易的Hash，即BTC的来源。</p>
+</li>
+<li><p>本次交易的双方的地址。</p>
+</li>
+<li><p>支付方的公钥，和收款方的私钥生成的数字签名。</p>
+<p>  最后，只有双方的交易数据写入区块链，才算这笔交易完成。</p>
+</li>
+</ul>
+<hr>
+<p>##Part1  一个极小区块链</p>
+<p>​    接下来记录一下使用python语言，编写一个区块链整个过程。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/07/night1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -278,9 +410,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/03/07/night1/" itemprop="url">考研与考试</a></h1>
+                <a class="post-title-link" href="/2018/03/07/night1/" itemprop="url">考研与考试</a></h2>
         
 
         <div class="post-meta">
@@ -290,7 +422,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posté le</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-07T02:38:37+08:00">
                 2018-03-07
@@ -324,7 +456,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
+    <div class="post-body han-init-context" itemprop="articleBody">
 
       
       
@@ -402,9 +534,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/03/05/hello-world/" itemprop="url">写在前言</a></h1>
+                <a class="post-title-link" href="/2018/03/05/hello-world/" itemprop="url">写在前言</a></h2>
         
 
         <div class="post-meta">
@@ -414,7 +546,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posté le</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-05T22:14:07+08:00">
                 2018-03-05
@@ -448,7 +580,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
+    <div class="post-body han-init-context" itemprop="articleBody">
 
       
       
@@ -528,7 +660,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">Doesn't Matter</p>
-              <p class="site-description motion-element" itemprop="description">Personal Blog</p>
+              <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
           <nav class="site-state motion-element">
@@ -536,16 +668,25 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives/">
+                <a href="/archives">
               
-                  <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">articles</span>
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">Artikel</span>
                 </a>
               </div>
             
 
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">Tags</span>
+                
+              </div>
             
 
           </nav>
